@@ -153,5 +153,4 @@ func main() {
 	} else {
 		ps.StartRange(*first, *last, time.Duration(*timeout)*time.Millisecond, *printClosed)
 	}
-	fmt.Println(*reserved, *app, *first, *last, *printClosed, *ip, *timeout)
 }
